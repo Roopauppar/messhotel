@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* second navbar */
+/* hover effects */
+.second-navbar {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+  }
+  .second-navbar:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .second-navbar:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  /* BUTTON */
+  .button:hover{
+    color: white !important;
+    background-color: blue !important;
+
+  }
+  /* CROUSEL IMAGE SIZE */
+  .crouselimage{
+   
+    min-height: 100px;
+    /* background: no-repeat scroll center scroll; */
+    -webkit-background-size:cover;
+    background-size: cover;
+  }
+  .crouselimage::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+  }
+  .crouselcaption{
+    margin-bottom: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+.crouselcaption h5{
+  font-size: 100px;
+font-weight: 700;
+}
+.crouselcaption p{
+  font-size: 18px;
+  top: 2rem;
+}
+/* HISTORY */
+h1{
+  font-family: 'Satisfy', cursive !important;
+  color: darkgreen;
+}
+.history-about{
+  background-color: antiquewhite;
+}
+.vl{
+  border-left: 1px solid black;
+  height: 400px;
+}
+.lit{
+  font-family: serif;
+}
+.history{
+  border: 0px;
+  border-radius: 200px;
+}
+/* MOST POPULAR DISHES */
+.backimg{
+  width: 102%;
+  height: 600px;
+  margin-top: 30px;
+  background-image: url("images/crousel1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* opacity: 75%; */
+}
+.backimg .popdish{
+  background: rgb(0, 0, 0) ;
+  background: rgba(0, 0, 0, 0.6);
+}
+.dishesimg{
+  border: 0px;
+  border-radius: 200px;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+.price{
+  border: 0px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 180px;
+  height: 40px;
+  margin-left: 30px;
+  font-weight:bold;
+  font-size: 25px;
+}
+/*SERVICES  */
+.services{
+  margin-top: 100px;
+  background-color: #e6e6e6;
+}
+.service{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.serv{
+  font-family: 'Satisfy', cursive !important;
+}
+.icon{
+  color: rgb(189, 192, 7);
+}
+/* OUR TEAM */
+.ourteam{
+  margin-top: 120px;
+}
+.team{
+    width: 102%;
+    height: 580px;
+    margin-top: 30px;
+    background-image: url("images/crousel1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 75%; */
+  
+}
+.team .our{
+  background: rgb(0, 0, 0) ;
+  background: rgba(0, 0, 0, 0.6);
+}
+.teamimg{
+  /* border: 0px; */
+  /* border-radius: 200px; */
+  /* margin-left: 40px; */
+  margin-top: 8px;
+}
+/* WHAT OUR COUSTOMERS SAYS */
+/* .coustomer{
+  background-color: #266963;
+} */
+.coustimg{
+  border: 0px;
+  border-radius: 200px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.coust {
+  transition: all 0.1s ease;
+  cursor: pointer
+}
+
+.coust:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1)
+}
+.star{
+  color: orange;
+}
+/*  */
+.copyright{
+  background-color: black;
+}

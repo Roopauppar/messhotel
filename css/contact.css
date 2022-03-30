@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* second navbar */
+/* hover effects */
+.second-navbar {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+  }
+  .second-navbar:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .second-navbar:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  /* BUTTON */
+  .button:hover{
+    color: white !important;
+    background-color: blue !important;
+
+  }
+  /* FOOD MENU */
+  
+  .menuimage{
+    position: relative;
+    width: 1349px;
+    height: 700px;
+}
+.foodimage{
+    width: 100%;
+    height: 90vh;
+    background: url("../images/crousel1.jpg");
+    background-size: cover;
+    background-position: center;   
+}
+.menutext{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+/*  */
+.form{
+    background-color: bisque;
+}
+/*copyright  */
+.copyright{
+    background-color: black;
+  }
